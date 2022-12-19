@@ -1,5 +1,5 @@
 /*
-Welcome to PainterHuang, where you have a stylish app that can paint all sort of shapes and sizes. Loading the app, you have a variety of buttons and features that you can use to 
+Loading the app, you have a variety of buttons and features that you can use to 
 your heart's content. Touching the color palette opens up a color picker, which you can choose colors by rotating it and moving the black circle inside the triangle. I have two color
 swatches in case you want to keep a certain color for later or want to work between two. I also have a brush, eraser, brush stroke, and shape option that do their corresponding functions.
 You can also rewind and delete the entire canvas.
