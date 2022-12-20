@@ -1,18 +1,3 @@
-/*
-Loading the app, you have a variety of buttons and features that you can use to 
-your heart's content. Touching the color palette opens up a color picker, which you can choose colors by rotating it and moving the black circle inside the triangle. I have two color
-swatches in case you want to keep a certain color for later or want to work between two. I also have a brush, eraser, brush stroke, and shape option that do their corresponding functions.
-You can also rewind and delete the entire canvas.
-
-In terms of logistics, I put all my functionality except my rewind and delete in app.js so that I can use them as props in pad.js. Pad.js takes these props to look for the corresponding
-button pressed. For shapes, pad.js mainly looks at the first and last coordinate of the finger on the canvas. This way it can set the boundaries for shapes created. It works by passing
-and fetching values from pen and point.js to pad.js.
-
-Some limitations:
--Clicking two places on the screen very fast will draw a line between them.
--A large brush stroke will often cause random spikes of lines to appear.
--No feature to align shapes together along the same coordinate.
-*/
 import React, { useState } from 'react'
 import { StyleSheet, Text, View, Modal, StatusBar, Image, TouchableOpacity } from 'react-native';
 import ExpoDraw from 'expo-draw'
